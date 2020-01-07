@@ -1,0 +1,29 @@
+import React from 'react';
+import logo from '../logo.svg';
+import '../css/App.css';
+
+import AddAppointments from "./AddAppointments";
+import ListAppointments from "./ListAppointments";
+import SearchAppointments from "./SearchAppointments";
+
+class App extends React.Component{
+  render(){
+    return (
+      <main className="page bg-white" id="petratings">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12 bg-white">
+              <div className="container">
+                <AddAppointments />
+                <ListAppointments />
+                <SearchAppointments />
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+    )
+  }
+}
+
+export default App;
