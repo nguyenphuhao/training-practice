@@ -1,0 +1,8 @@
+Hao 
+hes
+const fs = require('fs');
+const wt = fs.createWriteStream('.file.txt');
+process.stdin.pipe(wt);
+RUn the test file
+ok the focus con 
+dfdf
